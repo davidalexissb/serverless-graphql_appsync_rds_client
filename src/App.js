@@ -71,7 +71,6 @@ function App() {
     })
     .subscribe({
       next(data) {
-				console.log('next subs')
         console.log({ data });
       },
       error({ error }) {
